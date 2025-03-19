@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label id="name-label" for="name"
+        >Name
+        <input required id="name" type="text" placeholder="Enter your name"
+      /></label>
+      <label id="email-label" for="email"
+        >Email
+        <input type="email" required id="email" placeholder="Enter your email"
+      /></label>
+      <label id="number-label" for="number"
+        >Number
+        <input
+          type="number"
+          id="number"
+          placeholder="Enter your number"
+          min="1"
+          max="200"
+      /></label>
+
+      <label for="dropdown"
+        >Select your gender:
+        <select id="dropdown">
+          <option value="" disabled selected>Select an option</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+      </label>
+
+      <div>
+        <p>Choose your favorite option:</p>
+        <label> <input name="option" type="radio" value="1" /> Option 1 </label>
+        <label> <input name="option" type="radio" value="2" /> Option 2 </label>
+      </div>
+
+      <div>
+        <p>Select all that apply:</p>
+        <label> <input type="checkbox" value="a" /> Choice A </label>
+        <label> <input type="checkbox" value="b" /> Choice B </label>
+      </div>
+
+      <p>Additional Comments:</p>
+      <label>
+        <textarea placeholder="Enter your comment here"></textarea>
+      </label>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

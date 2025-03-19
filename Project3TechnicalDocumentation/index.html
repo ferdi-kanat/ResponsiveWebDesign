@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive technical documentation about Java programming language">
+    <title>Java Programming Language</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main-doc">
+
+    <section id="introduction" class="main-section">
+      <header><h2>Introduction to Java</h2></header>
+      <p>Java is an object-oriented programming language developed by James Gosling and his team at Sun Microsystems in 1995. Today, it is managed by Oracle Corporation.</p>
+      <p>One of Java's most important slogans is "Write Once, Run Anywhere," which emphasizes its platform-independent nature.</p>
+      <pre><code>
+// First Java application
+public class HelloWorld { 
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+      </code></pre>
+      <p>When Java code is compiled, it creates an intermediate code called bytecode, which can run on any operating system using the JVM (Java Virtual Machine).</p>
+      <p>Java is widely used in various domains including Android applications, web services, enterprise applications, and big data applications.</p>
+      <pre><code>
+// Checking Java version
+java -version 
+      </code></pre>
+    </section>
+
+    <section id="fundamentals" class="main-section">
+      <header><h2>Java Fundamentals</h2></header>
+      <p>In Java, every program is written within a class structure, and each application starts with the main() method. Java is statically typed, meaning every variable has a data type.</p>
+      <p>The primitive data types in Java are: byte, short, int, long, float, double, boolean, and char. Besides these, you can use reference types such as String.</p>
+      <pre><code>
+// Variable declaration examples
+int number = 10; 
+double pi = 3.14;
+char character = 'A';
+boolean isTrue = true;
+String text = "Java Programming";
+      </code></pre>
+      <p>Control structures in Java are similar to other languages. It includes if-else, switch, for, while, and do-while statements.</p>
+      <pre><code>
+// Loop example
+for (int i = 0; i &lt; 5; i++) { 
+    System.out.println("Number: " + i);
+}
+      </code></pre>
+      <p>Methods in Java are defined within classes and can work with parameters. Methods can have a return type or be declared void if they don't return any value.</p>
+    </section>
+
+    <section id="object_oriented_programming" class="main-section">
+      <header><h2>Object-Oriented Programming</h2></header>
+      <p>Java is a fully object-oriented language that supports all the features of this paradigm. Classes and objects are the fundamental building blocks of Java.</p>
+      <p>There are four main principles of object-oriented programming:</p>
+      <ul>
+        <li>Encapsulation: The bundling of data and methods within a class</li>
+        <li>Inheritance: The ability of a class to inherit properties from another class</li>
+        <li>Polymorphism: The ability of a method to behave differently in different contexts</li>
+        <li>Abstraction: Simplifying complex systems by modeling classes</li>
+        <li>Interfaces: Defining contracts for classes to implement</li>
+      </ul>
+      <p>In Java, inheritance is achieved using the "extends" keyword. A class can inherit from only one class (single inheritance) but can implement multiple interfaces.</p>
+      <p>Interfaces are implemented using the "implements" keyword and require classes to include certain methods.</p>
+    </section>
+    
+    <section id="exception_handling" class="main-section">
+      <header><h2>Exception Handling</h2></header>
+      <p>Java uses exception handling mechanisms to manage errors that might occur during runtime. Exceptions allow you to catch and properly handle potential errors in your code.</p>
+      <pre><code>
+// Try-catch exception handling
+try { 
+    int result = 10 / 0;  // Throws ArithmeticException
+} catch (ArithmeticException e) {
+    System.out.println("Division by zero error: " + e.getMessage());
+} finally {
+    System.out.println("This block always executes");
+}
+      </code></pre>
+    </section>
+
+    <section id="collections" class="main-section">
+      <header><h2>Java Collections</h2></header>
+      <p>The Java Collections Framework is a set of classes and interfaces used to store and process data. The most common collection types include ArrayList, LinkedList, HashSet, TreeSet, HashMap, and TreeMap.</p>
+      <pre><code>
+import java.util.ArrayList;
+
+public class CollectionExample {
+    public static void main(String[] args) {
+        ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+        list.add("Java");
+        list.add("Python");
+        list.add("C++");
+        
+        for (String language : list) {
+            System.out.println(language);
+        }
+    }
+}
+      </code></pre>
+    </section>
+
+    <nav id="navbar">
+      <header>Java Programming Documentation</header>
+      <a class="nav-link" href="#introduction">Introduction to Java</a>
+      <a class="nav-link" href="#fundamentals">Java Fundamentals</a>
+      <a class="nav-link" href="#object_oriented_programming">Object-Oriented Programming</a>
+      <a class="nav-link" href="#exception_handling">Exception Handling</a>
+      <a class="nav-link" href="#collections">Java Collections</a>
+    </nav>
+
+  </main>
+</body>
+</html>

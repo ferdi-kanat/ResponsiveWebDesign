@@ -1,0 +1,240 @@
+/* Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f8f5f0;
+}
+
+.container {
+    max-width: 900px; /* Daha dar ve zarif bir genişlik */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 60px 0 30px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    background-color: #e0e0e0;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #222;
+    }
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #5a5a5a;
+    font-weight: 500;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 60px;
+}
+
+/* Image Styles */
+#img-div {
+    margin-bottom: 40px;
+    background-color: #fafafa;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#image:hover {
+    transform: none;
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #4a4a4a;
+    font-size: 0.95rem; /* Daha küçük ve zarif */
+    padding: 0 30px;
+}
+
+/* Content Section */
+.content-section {
+    padding: 0; /* Gereksiz dolguyu kaldırdık */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.1rem;
+    color: #1a1a1a;
+    margin: 40px 0 20px;
+    padding-bottom: 0;
+    border-bottom: none; /* Çizgiyi kaldırdık */
+}
+
+p {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    color: #3a3a3a;
+}
+
+/* Timeline */
+.timeline {
+    margin: 40px 0;
+    padding-left: 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-left: 1px solid #ddd; /* İnce ve zarif bir çizgi */
+
+}
+
+
+
+.date {
+    font-family: 'Lora', serif; /* Daha sade bir font */
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #a61920;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Quote */
+.quote {
+    background-color: #fafafa;
+    border-left: 5px solid #a61920;
+    padding: 25px;
+    margin: 40px 0;
+    border-radius: 5px;
+}
+
+.quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #2f2f2f;
+}
+
+.quote cite {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    color: #5a5a5a;
+    display: block;
+    text-align: right;
+}
+
+/* Button and Links */
+.learn-more {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #a61920eb;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+a {
+    color: #a61920;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #6a6a6a;
+    font-size: 0.9rem;
+    border-top: none; /* Çizgiyi kaldırdık */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #title {
+        font-size: 2.5rem;
+    }
+    
+    .timeline {
+        padding-left: 15px;
+    }
+    
+    .timeline-item::before {
+        left: -5px;
+    }
+    
+    main {
+        padding: 25px;
+    }
+    
+    #img-caption {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #title {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1.1rem;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .quote p {
+        font-size: 1.1rem;
+    }
+    
+    .button {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+}
