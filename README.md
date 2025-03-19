@@ -8,7 +8,7 @@ This repository contains a collection of responsive web design projects develope
 
 ## View the Projects
 
-You can view all the projects live at [https://ferdi-kanat.github.io/ResponsiveWebDesign/](https://ferdi-kanat.github.io/ResponsiveWebDesign/docs/).
+You can view all the projects live at [https://ferdi-kanat.github.io/ResponsiveWebDesign/](https://ferdi-kanat.github.io/ResponsiveWebDesign/).
 
 ## Project List
 
