@@ -1,6 +1,6 @@
 # Responsive Web Design Projects
 
-This repository contains a collection of responsive web design projects developed to demonstrate modern HTML5 and CSS3 techniques. Each project showcases different aspects of responsive design principles and front-end development skills.
+This repository contains a collection of responsive web design projects developed to demonstrate modern HTML5 and CSS3 techniques. Each project showcases different aspects of responsive design principles and front-end development skills. These projects were developed as part of freeCodeCamp's Responsive Web Design certification.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -124,10 +124,17 @@ Through these projects, I've gained expertise in:
 - Further optimize images for faster loading
 - Add more animation effects using CSS transitions
 
-## Author
+## Contributing
 
-Ferdi Kanat - Web Developer
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+Ferdi Kanat - Web Developer
+
+- [GitHub](https://github.com/ferdi-kanat)
+- [LinkedIn](https://www.linkedin.com/in/ferdi-k-0b4528272/)
