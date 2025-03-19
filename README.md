@@ -6,6 +6,10 @@ This repository contains a collection of responsive web design projects develope
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=for-the-badge)
 
+## View the Projects
+
+You can view all the projects live at [https://ferdi-kanat.github.io/ResponsiveWebDesign/](https://ferdi-kanat.github.io/ResponsiveWebDesign/).
+
 ## Project List
 
 ### 1. Survey Form
